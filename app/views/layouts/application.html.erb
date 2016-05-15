@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html>
+<header >
+
+  <title>Drew Gonzales</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag "application", params[:controller], :media => "all",'data-turbolinks-track'=>true %>
+  <%= javascript_include_tag "application", params[:controller],'data-turbolinks-track'=>true %>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <meta charset="UTF-8">
+
+</header>
+<main>
+  <nav>
+    <div class="nav-wrapper teal">
+      <%= link_to 'Home', root_path, class: "brand-logo"%>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><%= link_to 'Projects', project_index_path%></li>
+
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><%= link_to 'Projects', project_index_path%></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+  <%= yield %>
+</main>
+<footer class="page-footer teal">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Drew Gonzales</h5>
+        <p class="grey-text text-lighten-4">If you've found any errors on the page, contact me!</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Site Map</h5>
+        <ul>
+          <li><%= link_to 'Home', root_path, class: "grey-text text-lighten-3"%></li>
+          <li><%= link_to 'Projects', project_index_path, class: "grey-text text-lighten-3"%></li>
+          <li><%= mail_to 'drew.gonzales@ucla.edu', "Contact", class: "grey-text text-lighten-3"%></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2016 Copyright Text
+    </div>
+  </div>
+</footer>
+</html>
