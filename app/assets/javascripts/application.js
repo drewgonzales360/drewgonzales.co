@@ -16,7 +16,3 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require materialize
-//= require react-with-addons
-//= require react-dom-server
-//= require react-dom
-//= require react
