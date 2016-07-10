@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   root 'page#landing'
 
   get 'project/index'
-  get 'project/show'
+  get 'project/download'
 
 
   get 'page/landing'

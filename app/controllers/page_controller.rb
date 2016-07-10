@@ -5,8 +5,8 @@ class PageController < ApplicationController
 
 
 	def download
-		send_data '/assets/data/jawa.zip',
-		:filename => "jawa.zip",
-		:type => "application/zip"
+		send_data '/assets/data/DrewGonzalesResume.pdf',
+		:filename => "DrewGonzalesResume.pdf",
+		:type => "application/pdf"
 	end
 end

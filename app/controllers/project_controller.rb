@@ -3,8 +3,8 @@ class ProjectController < ApplicationController
 	end
 
 	def download
-		send_data '/assets/data/DrewGonzalesResume.pdf',
-		:filename => "DrewGonzalesResume.pdf",
-		:type => "application/pdf"
+		send_data '/assets/data/jawa.zip',
+		:filename => "jawa.zip",
+		:type => "application/zip"
 	end
 end
