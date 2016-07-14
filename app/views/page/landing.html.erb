@@ -36,108 +36,108 @@
 				</div>
 			</div>
 		</div>
-	</body>
 
-	<div class="container">
-		<div class="row">
-			<div class="col s12 m12 l6">
-				<div class="card small z-depth-3">
-					<div class="card-image waves-effect waves-block waves-light">
-						<%= image_tag 'code.jpg', class: "activator"%>
-					</div>
-					<div class="card-content">
-						<span class="card-title activator grey-text text-darken-4">Projects<i class="material-icons right">more_vert</i></span>
-						<p><%= link_to 'Projects', project_index_path%></p>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4">Projects<i class="material-icons right">close</i></span>
-						<p>My interests in the computing field are in web design and artificial intelligence.</p>
-						<p>The most interesting project I'm working on is an an Android app; check it out on my
-						projects page. </p>
-					</div>
-				</div>
-
-				<div class="card large z-depth-3">
-					<div class="card-image waves-effect waves-block waves-light">
-						<%= image_tag 'band.jpg', class: "activator"%>
-					</div>
-					<div class="card-content">
-						<span class="card-title activator grey-text text-darken-4">Education<i class="material-icons right">more_vert</i></span>
-						<p><a href="https://www.ucla.edu">University of California, Los Angeles</a></p><br>
-						<p>Mathematics of Computation, B.S.</p>
-						<p>Class of 2017</p>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4">Education<i class="material-icons right">close</i></span>
-						<p>I'm currently and undergraduate studying Mathematics of Computation. Aside from my studies,
-						I'm involved with the UCLA Solid Gold Sound Marching band, and the UCLA Club Cycling team.
-						I'm also a Regents Scholar at UCLA</p>
-						<ul >
-							<li>CS 32     - Data Structures & Algorithms</li>
-							<li>CS 180    - Algorithms and Complexities</li>
-							<li>Math 115A - Linear Algebra</li>
-							<li>Math 142  - Mathematical Modeling</li>
-							<li>Math 131A - Real Analysis</li>
-							<li>Math 164  - Optimization</li>
-							<li>Math 167  - Game Theory</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col s12 m12 l6">
-				<div class="card z-depth-3">
-					<div class="card-image waves-effect waves-block waves-light">
-						<%= image_tag 'bikes.jpg', class: "activator"%>
-					</div>
-					<div class="card-content">
-						<span class="card-title activator grey-text text-darken-4">Cycling<i class="material-icons right">more_vert</i></span>
-						<p><a href="https://www.usacycling.org/results/?compid=303655">Results</a></p>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4">Cycling<i class="material-icons right">close</i></span>
-						<p>I've been a competitive cyclist since I was 15 years old. I have experience racing at the
-						national level. My favorite races were Valley of the Sun, Cascade, and Junior National Cycling
-						Championships.</p> <br>
-						<p>I'm currently a member of the UCLA Club Cycling Team and the webmaster. Check us out on
-						<a href="https://www.facebook.com/groups/cycling.ucla/">Facebook</a>!</p>
-					</div>
-				</div>
-
-				<div class="card blue-grey darken-1">
-					<div class="card-content white-text">
-						<span class="card-title">Contact</span><br>
-						<p>drew.gonzales@ucla.edu</p><br>
-					</div>
-					<div class="card-action">
-						<%= link_to 'Resume', page_download_path%>
-						<a href="https://github.com/kdrewgonzales">GitHub</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-<footer class="page-footer teal">
-	<div class="container">
-		<div class="row">
-			<div class="col l6 s12">
-				<h5 class="white-text">Drew Gonzales</h5>
-				<p class="grey-text text-lighten-4">If you've found any errors on the page, contact me!</p>
-			</div>
-			<div class="col l4 offset-l2 s12">
-				<h5 class="white-text">Site Map</h5>
-				<ul>
-					<li><%= link_to 'Home', root_path, class: "grey-text text-lighten-3"%></li>
-					<li><%= link_to 'Projects', project_index_path, class: "grey-text text-lighten-3"%></li>
-					<li><%= mail_to 'drew.gonzales@ucla.edu', "Contact", class: "grey-text text-lighten-3"%></li>
-
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="footer-copyright">
 		<div class="container">
-			Created with swag using Materialize CSS. 2016.
+			<div class="row">
+				<div class="col s12 m12 l6">
+					<div class="card small z-depth-3">
+						<div class="card-image waves-effect waves-block waves-light">
+							<%= image_tag 'code.jpg', class: "activator"%>
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Projects<i class="material-icons right">more_vert</i></span>
+							<p><%= link_to 'Projects', project_index_path%></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Projects<i class="material-icons right">close</i></span>
+							<p>My interests in the computing field are in web design and artificial intelligence.</p>
+							<p>The most interesting project I'm working on is an an Android app; check it out on my
+							projects page. </p>
+						</div>
+					</div>
+
+					<div class="card large z-depth-3">
+						<div class="card-image waves-effect waves-block waves-light">
+							<%= image_tag 'band.jpg', class: "activator"%>
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Education<i class="material-icons right">more_vert</i></span>
+							<p><a href="https://www.ucla.edu">University of California, Los Angeles</a></p><br>
+							<p>Mathematics of Computation, B.S.</p>
+							<p>Class of 2017</p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Education<i class="material-icons right">close</i></span>
+							<p>I'm currently and undergraduate studying Mathematics of Computation. Aside from my studies,
+							I'm involved with the UCLA Solid Gold Sound Marching band, and the UCLA Club Cycling team.
+							I'm also a Regents Scholar at UCLA</p>
+							<ul >
+								<li>CS 32     - Data Structures & Algorithms</li>
+								<li>CS 180    - Algorithms and Complexities</li>
+								<li>Math 115A - Linear Algebra</li>
+								<li>Math 142  - Mathematical Modeling</li>
+								<li>Math 131A - Real Analysis</li>
+								<li>Math 164  - Optimization</li>
+								<li>Math 167  - Game Theory</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m12 l6">
+					<div class="card z-depth-3">
+						<div class="card-image waves-effect waves-block waves-light">
+							<%= image_tag 'bikes.jpg', class: "activator"%>
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Cycling<i class="material-icons right">more_vert</i></span>
+							<p><a href="https://www.usacycling.org/results/?compid=303655">Results</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Cycling<i class="material-icons right">close</i></span>
+							<p>I've been a competitive cyclist since I was 15 years old. I have experience racing at the
+							national level. My favorite races were Valley of the Sun, Cascade, and Junior National Cycling
+							Championships.</p> <br>
+							<p>I'm currently a member of the UCLA Club Cycling Team and the webmaster. Check us out on
+							<a href="https://www.facebook.com/groups/cycling.ucla/">Facebook</a>!</p>
+						</div>
+					</div>
+
+					<div class="card blue-grey darken-1">
+						<div class="card-content white-text">
+							<span class="card-title">Contact</span><br>
+							<p>drew.gonzales@ucla.edu</p><br>
+						</div>
+						<div class="card-action">
+							<%= link_to 'Resume', page_download_path%>
+							<a href="https://github.com/kdrewgonzales">GitHub</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-</footer>
+	</body>
+	<footer class="page-footer teal">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Drew Gonzales</h5>
+					<p class="grey-text text-lighten-4">If you've found any errors on the page, contact me!</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Site Map</h5>
+					<ul>
+						<li><%= link_to 'Home', root_path, class: "grey-text text-lighten-3"%></li>
+						<li><%= link_to 'Projects', project_index_path, class: "grey-text text-lighten-3"%></li>
+						<li><%= mail_to 'drew.gonzales@ucla.edu', "Contact", class: "grey-text text-lighten-3"%></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				Created with swag using Materialize CSS. 2016.
+			</div>
+		</div>
+	</footer>
 </html>
