@@ -1,28 +1,18 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Written by Drew Gonzales utilizing the Material CSS
+http://materializecss.com/getting-started.html
+This is the Ruby on Rails application for drewgonzales.co. This website
+is currently being hosted by Heroku, then I pointed the DNS to a pop.co,
+which I have until mid April 2017.
 
-Things you may want to cover:
 
 * Ruby version
-
-* System dependencies
-
-* Configuration
+  2.3.0
 
 * Database creation
+  Postgresql
 
 * Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
